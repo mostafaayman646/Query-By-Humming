@@ -15,7 +15,7 @@ for file in os.listdir(db_folder):
 
 # 2. Process your Hum
 print("Analyzing your humming...")
-user_hum_uds = wav_to_clean_uds("ta7ya_masr.wav")
+user_hum_uds = wav_to_clean_uds("ta7ya_masr_2.wav")
 
 # 3. Match
 results = []
